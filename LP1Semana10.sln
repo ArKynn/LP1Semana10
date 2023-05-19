@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerManager4", "PlayerMan
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LootSort", "LootSort\LootSort.csproj", "{337D4152-A46E-437E-A2A2-84349BCB7ACF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCollections", "StringCollections\StringCollections.csproj", "{936D9166-9E8F-4A66-B3C2-7B8A7CC33058}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{337D4152-A46E-437E-A2A2-84349BCB7ACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{337D4152-A46E-437E-A2A2-84349BCB7ACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{337D4152-A46E-437E-A2A2-84349BCB7ACF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{936D9166-9E8F-4A66-B3C2-7B8A7CC33058}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{936D9166-9E8F-4A66-B3C2-7B8A7CC33058}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{936D9166-9E8F-4A66-B3C2-7B8A7CC33058}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{936D9166-9E8F-4A66-B3C2-7B8A7CC33058}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
