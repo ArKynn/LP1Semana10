@@ -133,7 +133,7 @@ namespace PlayerManager3
         {
             Console.WriteLine("\nList of players");
             Console.WriteLine("-------------\n");
-
+            
             // Show each player in the enumerable object
             foreach (Player p in playersToList)
             {

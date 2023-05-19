@@ -13,11 +13,8 @@ namespace PlayerManager3
 
         public int CompareTo(Player? other)
         {
-            int order = 0;
-            if (Score == other!.Score) order = 0;
-            else if (Score < other.Score) order = -1;
-            else if (Score > other.Score) order = 1;
-            return order;
+            if (other == null) return 1;
+            return other.Score - Score;
         }
     }
 }
