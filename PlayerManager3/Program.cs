@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Collections.Generic;
 
 namespace PlayerManager3
@@ -133,9 +134,12 @@ namespace PlayerManager3
         {
             Console.WriteLine("\nList of players");
             Console.WriteLine("-------------\n");
-            
+
+            List<Player> playerList = playersToList.ToList();
+            playerList.Sort();
+
             // Show each player in the enumerable object
-            foreach (Player p in playersToList)
+            foreach (Player p in playerList)
             {
                 Console.WriteLine($" -> {p.Name} with a score of {p.Score}");
             }
